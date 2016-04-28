@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-28 15:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: models.py:28
+msgid "name"
+msgstr "Jméno"
+
+#: models.py:29
+msgid "slug"
+msgstr "slug"
+
+#: models.py:33
+msgid "Event category"
+msgstr "Kategorie údálosti"
+
+#: models.py:34
+msgid "Event categories"
+msgstr "Kategorie údálostí"
+
+#: models.py:78
+msgid "Location"
+msgstr "Lokace"
+
+#: models.py:79
+msgid "Street"
+msgstr "Ulice"
+
+#: models.py:80
+msgid "City"
+msgstr "Město"
+
+#: models.py:81
+msgid "State"
+msgstr "Stát"
+
+#: models.py:82
+msgid "Zip"
+msgstr "PSČ"
+
+#: models.py:83
+msgid "Country"
+msgstr "země"
+
+#: models.py:85
+msgid "Latitude"
+msgstr ""
+
+#: models.py:87
+msgid "Longitude"
+msgstr ""
+
+#: models.py:90
+msgid "Venue"
+msgstr "Místo konání"
+
+#: models.py:91
+msgid "Venues"
+msgstr "Místa konání"
+
+#: models.py:101
+msgid "open"
+msgstr "otevřená"
+
+#: models.py:102
+msgid "closed"
+msgstr "zavřená"
+
+#: models.py:103
+msgid "private"
+msgstr "privátní"
+
+#: models.py:115
+msgid "Owner"
+msgstr "Vlastník"
+
+#: models.py:117 models.py:174
+msgid "Name"
+msgstr "Jméno"
+
+#: models.py:118 models.py:175
+msgid "Short Description"
+msgstr "Krátký popis"
+
+#: models.py:119 models.py:176
+msgid "Description"
+msgstr "Popis"
+
+#: models.py:121
+msgid "Start time"
+msgstr "Čas začátku"
+
+#: models.py:121
+msgid "Start Datum und Zeit"
+msgstr "Čas začátku"
+
+#: models.py:122
+msgid "End time"
+msgstr "Čas konce"
+
+#: models.py:123
+msgid "leave blank for full day events"
+msgstr "Nechte prázdné pro celodenní akce"
+
+#: models.py:126
+msgid "Privacy"
+msgstr "Typ akce"
+
+#: models.py:127
+msgid "updated time"
+msgstr "Čas aktualizace"
+
+#: models.py:133
+msgid "Slug"
+msgstr ""
+
+#: models.py:135
+msgid "Language"
+msgstr "Jazyk"
+
+#: models.py:142
+msgid "Event"
+msgstr "Událost"
+
+#: models.py:143
+msgid "Events"
+msgstr "Události"
+
+#: models.py:153
+msgid "The Event cannot end before start (Start date <= End date)"
+msgstr "Událost nemůže končit dříve než začíná"
+
+#: models.py:179
+msgid "Event Translation"
+msgstr "Překlad události"
+
+#: models.py:180
+msgid "Event Translations"
+msgstr "Překlad událostí"

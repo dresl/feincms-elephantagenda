@@ -182,6 +182,11 @@ class EventTranslation(Translation(Event)):
 
 class EventAdminForm(forms.ModelForm):
 
+    def __init__(self, *args, **kwargs):
+        super(EventAdminForm, self).__init__(*args, **kwargs)
+        self.fields['privacy'].initial = 'OPEN'
+        self.fields['venue'].initial = self.fields['venue'].queryset.first()
+
     class Meta:
         widgets = {
             'description': forms.widgets.Textarea(attrs={'class': 'tinymce'}),

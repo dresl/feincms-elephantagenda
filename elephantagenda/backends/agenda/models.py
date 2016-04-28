@@ -186,6 +186,7 @@ class EventAdminForm(forms.ModelForm):
         super(EventAdminForm, self).__init__(*args, **kwargs)
         self.fields['privacy'].initial = 'OPEN'
         self.fields['venue'].initial = self.fields['venue'].queryset.first()
+        self.fields['language'].initial = settings.LANGUAGES[0][0]
 
     class Meta:
         widgets = {

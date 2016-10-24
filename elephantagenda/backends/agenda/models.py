@@ -11,6 +11,7 @@ from django.db import models
 from django.db.models import Q
 from django.utils.encoding import python_2_unicode_compatible
 from django.utils.translation import ugettext_lazy as _
+from leonardo.module.media.fields.image import ImageField
 from django_countries.fields import CountryField
 from feincms.templatetags.feincms_thumbnail import thumbnail
 from feincms.translations import (TranslatedObjectManager,
@@ -127,7 +128,7 @@ class EventBase(models.Model, TranslatedObjectMixin):
     updated_time = models.DateTimeField(_('updated time'), auto_now=True)
 
     picture = models.ForeignKey(settings.AGENDA_MEDIA_FILE, blank=True, null=True,
-                                related_name="%(app_label)s_%(class)s_events")
+                                related_name="%(app_label)s_%(class)s_events", verbose_name=_('Picture'))
 
     # custom fields:
     slug = models.SlugField(_('Slug'), max_length=100)
@@ -162,7 +163,7 @@ class EventBase(models.Model, TranslatedObjectMixin):
 
 
 class Event(EventBase):
-    venue = models.ForeignKey(Venue)
+    venue = models.ForeignKey(Venue, verbose_name=_('Venue'))
     categories = models.ManyToManyField(Category, blank=True,
                                         related_name="%(app_label)s_%(class)s_related")
 

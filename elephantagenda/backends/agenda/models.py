@@ -165,7 +165,7 @@ class EventBase(models.Model, TranslatedObjectMixin):
 class Event(EventBase):
     venue = models.ForeignKey(Venue, verbose_name=_('Venue'))
     categories = models.ManyToManyField(Category, blank=True,
-                                        related_name="%(app_label)s_%(class)s_related")
+                                        related_name="%(app_label)s_%(class)s_related", verbose_name=_('Categories'))
 
     class Meta(EventBase.Meta):
         abstract = False
@@ -225,6 +225,6 @@ class EventAdmin(admin.ModelAdmin):
                        'picture', 'venue', 'categories')
         }),
     ]
-    list_filter = ('start_time', 'privacy')
+    list_filter = ('start_time', 'privacy', 'categories')
     raw_id_fields = ('picture', 'venue')
     prepopulated_fields = {'slug': ('name',)}

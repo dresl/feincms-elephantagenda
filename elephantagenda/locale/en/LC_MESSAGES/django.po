@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-24 16:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apps.py:8
+msgid "agenda"
+msgstr ""
+
+#: backends/agenda/models.py:28 backends/fb_agenda/models.py:21
+msgid "name"
+msgstr ""
+
+#: backends/agenda/models.py:29 backends/fb_agenda/models.py:22
+msgid "slug"
+msgstr ""
+
+#: backends/agenda/models.py:33 backends/fb_agenda/models.py:25
+msgid "Event category"
+msgstr ""
+
+#: backends/agenda/models.py:34 backends/fb_agenda/models.py:26
+msgid "Event categories"
+msgstr ""
+
+#: backends/agenda/models.py:78 backends/gmaps_agenda/models.py:16
+#: templates/agenda/event_list.html:6
+msgid "Location"
+msgstr ""
+
+#: backends/agenda/models.py:79 backends/gmaps_agenda/models.py:17
+msgid "Street"
+msgstr ""
+
+#: backends/agenda/models.py:80 backends/gmaps_agenda/models.py:18
+msgid "City"
+msgstr ""
+
+#: backends/agenda/models.py:81 backends/gmaps_agenda/models.py:19
+msgid "State"
+msgstr ""
+
+#: backends/agenda/models.py:82 backends/gmaps_agenda/models.py:20
+msgid "Zip"
+msgstr ""
+
+#: backends/agenda/models.py:83 backends/gmaps_agenda/models.py:21
+msgid "Country"
+msgstr ""
+
+#: backends/agenda/models.py:85
+msgid "Latitude"
+msgstr ""
+
+#: backends/agenda/models.py:87
+msgid "Longitude"
+msgstr ""
+
+#: backends/agenda/models.py:90 backends/agenda/models.py:165
+#: backends/gmaps_agenda/models.py:25
+msgid "Venue"
+msgstr ""
+
+#: backends/agenda/models.py:91 backends/gmaps_agenda/models.py:26
+msgid "Venues"
+msgstr ""
+
+#: backends/agenda/models.py:101
+msgid "open"
+msgstr ""
+
+#: backends/agenda/models.py:102
+msgid "closed"
+msgstr ""
+
+#: backends/agenda/models.py:103
+msgid "private"
+msgstr ""
+
+#: backends/agenda/models.py:115
+msgid "Owner"
+msgstr ""
+
+#: backends/agenda/models.py:117 backends/agenda/models.py:174
+#: templates/agenda/event_list.html:5
+msgid "Name"
+msgstr ""
+
+#: backends/agenda/models.py:118 backends/agenda/models.py:175
+#: templates/agenda/event_list.html:9
+msgid "Short Description"
+msgstr ""
+
+#: backends/agenda/models.py:119 backends/agenda/models.py:176
+msgid "Description"
+msgstr ""
+
+#: backends/agenda/models.py:121
+msgid "Start time"
+msgstr ""
+
+#: backends/agenda/models.py:121
+msgid "Start Datum und Zeit"
+msgstr ""
+
+#: backends/agenda/models.py:122
+msgid "End time"
+msgstr ""
+
+#: backends/agenda/models.py:123
+msgid "leave blank for full day events"
+msgstr ""
+
+#: backends/agenda/models.py:126
+msgid "Privacy"
+msgstr ""
+
+#: backends/agenda/models.py:127
+msgid "updated time"
+msgstr ""
+
+#: backends/agenda/models.py:130
+msgid "Picture"
+msgstr ""
+
+#: backends/agenda/models.py:133
+msgid "Slug"
+msgstr ""
+
+#: backends/agenda/models.py:135 backends/fb_agenda/models.py:66
+msgid "Language"
+msgstr ""
+
+#: backends/agenda/models.py:142
+msgid "Event"
+msgstr ""
+
+#: backends/agenda/models.py:143
+msgid "Events"
+msgstr ""
+
+#: backends/agenda/models.py:153
+msgid "The Event cannot end before start (Start date <= End date)"
+msgstr ""
+
+#: backends/agenda/models.py:167
+msgid "Categories"
+msgstr ""
+
+#: backends/agenda/models.py:179
+msgid "Event Translation"
+msgstr ""
+
+#: backends/agenda/models.py:180
+msgid "Event Translations"
+msgstr ""
+
+#: backends/fb_agenda/models.py:70
+msgid "Anzahl Plätze"
+msgstr ""
+
+#: backends/fb_agenda/models.py:79
+msgid "fb event"
+msgstr ""
+
+#: backends/fb_agenda/models.py:80
+msgid "fb events"
+msgstr ""
+
+#: contents.py:15 contents.py:59
+msgid "all"
+msgstr ""
+
+#: contents.py:16 contents.py:60
+msgid "upcoming"
+msgstr ""
+
+#: contents.py:17 contents.py:61
+msgid "past"
+msgstr ""
+
+#: contents.py:20
+msgid "Leave blank for all categories."
+msgstr ""
+
+#: contents.py:24
+msgid "event list"
+msgstr ""
+
+#: contents.py:25
+msgid "event lists"
+msgstr ""
+
+#: contents.py:66
+msgid "event map"
+msgstr ""
+
+#: contents.py:67
+msgid "event maps"
+msgstr ""
+
+#: templates/agenda/event_list.html:7
+msgid "Start"
+msgstr ""
+
+#: templates/agenda/event_list.html:8
+msgid "End"
+msgstr ""
+
+#: templates/content/agenda/_fb_event_list.html:3
+msgid ""
+"Log dich bei Facebook ein, \n"
+"    \tdamit du deinen Freunden mitteilen kannst, \n"
+"    \tob du an einer Veranstaltung teil nimmst:\n"
+"    \t"
+msgstr ""
+
+#: templates/content/agenda/_fb_event_list.html:27
+msgid "I'm attending"
+msgstr ""
+
+#: templates/content/agenda/_fb_event_list.html:28
+msgid "Maybe"
+msgstr ""
+
+#: templates/content/agenda/_fb_event_list.html:29
+msgid "No"
+msgstr ""
+
+#: templates/content/agenda/_fb_event_list.html:34
+msgid "Für diesen Event musst du dich anmelden"
+msgstr ""
+
+#: templates/content/agenda/gmap_event_list.html:11
+msgid "Treffpunkt"
+msgstr ""

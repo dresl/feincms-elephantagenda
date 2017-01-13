@@ -134,6 +134,7 @@ class EventBase(models.Model, TranslatedObjectMixin):
     slug = models.SlugField(_('Slug'), max_length=100)
     language = models.CharField(
         _('Language'), max_length=5, choices=settings.LANGUAGES)
+    show_in_calendar = models.BooleanField(_('Show in calendar'), default=True)
 
     objects = EventManager()
 
@@ -219,7 +220,7 @@ class EventAdmin(admin.ModelAdmin):
                     'location', 'thumb')
     fieldsets = [
         (None, {
-            'fields': ('privacy',  'start_time',  'end_time',
+            'fields': ('privacy', 'show_in_calendar', 'start_time', 'end_time',
                        'name', 'slug', 'short_description',
                        'description', 'language',
                        'picture', 'venue', 'categories')

@@ -226,6 +226,7 @@ class EventAdmin(admin.ModelAdmin):
                        'picture', 'venue', 'categories')
         }),
     ]
-    list_filter = ('start_time', 'privacy', 'categories')
+    list_filter = ('start_time', 'categories')
+    search_fields = ['name']
     raw_id_fields = ('picture', 'venue')
     prepopulated_fields = {'slug': ('name',)}

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-24 19:45+0000\n"
+"POT-Creation-Date: 2017-01-24 20:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,146 +17,150 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: models.py:29
+#: backends/agenda/models.py:29
 msgid "name"
 msgstr ""
 
-#: models.py:30
+#: backends/agenda/models.py:30
 msgid "slug"
 msgstr ""
 
-#: models.py:34
+#: backends/agenda/models.py:34
 msgid "Event category"
 msgstr ""
 
-#: models.py:35
+#: backends/agenda/models.py:35
 msgid "Event categories"
 msgstr ""
 
-#: models.py:79
+#: backends/agenda/models.py:79
 msgid "Location"
 msgstr ""
 
-#: models.py:80
+#: backends/agenda/models.py:80
 msgid "Street"
 msgstr ""
 
-#: models.py:81
+#: backends/agenda/models.py:81
 msgid "City"
 msgstr ""
 
-#: models.py:82
+#: backends/agenda/models.py:82
 msgid "State"
 msgstr ""
 
-#: models.py:83
+#: backends/agenda/models.py:83
 msgid "Zip"
 msgstr ""
 
-#: models.py:84
+#: backends/agenda/models.py:84
 msgid "Country"
 msgstr ""
 
-#: models.py:86
+#: backends/agenda/models.py:86
 msgid "Latitude"
 msgstr ""
 
-#: models.py:88
+#: backends/agenda/models.py:88
 msgid "Longitude"
 msgstr ""
 
-#: models.py:91 models.py:166
+#: backends/agenda/models.py:91 backends/agenda/models.py:167
 msgid "Venue"
 msgstr ""
 
-#: models.py:92
+#: backends/agenda/models.py:92
 msgid "Venues"
 msgstr ""
 
-#: models.py:102
+#: backends/agenda/models.py:102
 msgid "open"
 msgstr ""
 
-#: models.py:103
+#: backends/agenda/models.py:103
 msgid "closed"
 msgstr ""
 
-#: models.py:104
+#: backends/agenda/models.py:104
 msgid "private"
 msgstr ""
 
-#: models.py:116
+#: backends/agenda/models.py:116
 msgid "Owner"
 msgstr ""
 
-#: models.py:118 models.py:175
+#: backends/agenda/models.py:118 backends/agenda/models.py:176
 msgid "Name"
 msgstr ""
 
-#: models.py:119 models.py:176
+#: backends/agenda/models.py:119 backends/agenda/models.py:177
 msgid "Short Description"
 msgstr ""
 
-#: models.py:120 models.py:177
+#: backends/agenda/models.py:120 backends/agenda/models.py:178
 msgid "Description"
 msgstr ""
 
-#: models.py:122
+#: backends/agenda/models.py:122
 msgid "Start time"
 msgstr ""
 
-#: models.py:122
+#: backends/agenda/models.py:122
 msgid "Start Datum und Zeit"
 msgstr ""
 
-#: models.py:123
+#: backends/agenda/models.py:123
 msgid "End time"
 msgstr ""
 
-#: models.py:124
+#: backends/agenda/models.py:124
 msgid "leave blank for full day events"
 msgstr ""
 
-#: models.py:127
+#: backends/agenda/models.py:127
 msgid "Privacy"
 msgstr ""
 
-#: models.py:128
+#: backends/agenda/models.py:128
 msgid "updated time"
 msgstr ""
 
-#: models.py:131
+#: backends/agenda/models.py:131
 msgid "Picture"
 msgstr ""
 
-#: models.py:134
+#: backends/agenda/models.py:134
 msgid "Slug"
 msgstr ""
 
-#: models.py:136
+#: backends/agenda/models.py:136
 msgid "Language"
 msgstr ""
 
-#: models.py:143
+#: backends/agenda/models.py:137
+msgid "Show in calendar"
+msgstr ""
+
+#: backends/agenda/models.py:144
 msgid "Event"
 msgstr ""
 
-#: models.py:144
+#: backends/agenda/models.py:145
 msgid "Events"
 msgstr ""
 
-#: models.py:154
+#: backends/agenda/models.py:155
 msgid "The Event cannot end before start (Start date <= End date)"
 msgstr ""
 
-#: models.py:168
+#: backends/agenda/models.py:169
 msgid "Categories"
 msgstr ""
 
-#: models.py:180
+#: backends/agenda/models.py:181
 msgid "Event Translation"
 msgstr ""
 
-#: models.py:181
+#: backends/agenda/models.py:182
 msgid "Event Translations"
 msgstr ""

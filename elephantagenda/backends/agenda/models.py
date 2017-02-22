@@ -216,8 +216,7 @@ class EventAdmin(admin.ModelAdmin):
     inlines = [EventTranslationInline]
 
     save_on_top = True
-    list_display = ('__str__', 'start_time', 'end_time', 'privacy',
-                    'location', 'thumb')
+    list_display = ('__str__', 'start_time', 'end_time')
     fieldsets = [
         (None, {
             'fields': ('privacy', 'show_in_calendar', 'start_time', 'end_time',

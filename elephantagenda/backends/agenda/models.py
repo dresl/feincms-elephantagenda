@@ -131,7 +131,7 @@ class EventBase(models.Model, TranslatedObjectMixin):
                                 related_name="%(app_label)s_%(class)s_events", verbose_name=_('Picture'))
 
     # custom fields:
-    slug = models.SlugField(_('Slug'), max_length=100)
+    slug = models.SlugField(_('Slug'), max_length=100, unique=True)
     language = models.CharField(
         _('Language'), max_length=5, choices=settings.LANGUAGES)
     show_in_calendar = models.BooleanField(_('Show in calendar'), default=True)
